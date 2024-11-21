@@ -64,20 +64,19 @@
   z-index: 200;
 }
 .serviceshome .slick-next::before {
-  /* opacity: 1;
-  content: "→" !important;
-  color: #1172ba !important;
-  opacity: 1 !important;
-  font-size: 30px !important; */
-  content: '→' !important;
-  /* color: #1172ba !important; */
-  opacity: 1 !important;
-  font-size: 28px !important;
-  font-family: monospace !important;
+  content: "→";
+  opacity: 1;
+  font-size: 28px;
+  font-family: monospace;
   background: #1172ba;
   color: white;
-  padding: 0px 10px 2px;
   border-radius: 50%;
+  width: 35px;
+  display: inline-block;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .serviceshome .slick-arrow.slick-prev {
   position: absolute;
@@ -86,19 +85,19 @@
   z-index: 200;
 }
 .serviceshome .slick-prev::before {
-  /* content: "←" !important;
-  color: #1172ba !important;
-  opacity: 1 !important;
-  font-size: 30px !important; */
-  content: '←' !important;
-  /* color: #1172ba !important; */
-  opacity: 1 !important;
-  font-size: 28px !important;
-  font-family: monospace !important;
+  content: "←";
+  opacity: 1;
+  font-size: 28px;
+  font-family: monospace;
   background: #1172ba;
   color: white;
-  padding: 0px 10px 2px;
   border-radius: 50%;
+  width: 35px;
+  display: inline-block;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slick-dots li.slick-active button:before,
